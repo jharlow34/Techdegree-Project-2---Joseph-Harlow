@@ -19,11 +19,18 @@
       color: #242424;
   }
 
+  .contact {
+      colour: whitesmoke;
+  }
   .contact-p {
       color: whitesmoke;
   }
   .contact-phone {
-      color: whitesmoke
+      color: whitesmoke;
+  }
+  
+  .contact-email {
+      color: whitesmoke;
   }
 
 
