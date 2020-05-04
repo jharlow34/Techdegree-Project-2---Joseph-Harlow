@@ -12,6 +12,7 @@
     background-color: lightblue;
     padding-top: .10px;
     text-align: center;
+    margin: 0 auto;
 
 }
 
@@ -35,6 +36,7 @@ li {
 .main-section {
     margin-right: 5%;
     margin-left: 5%;
+    line-height: 2px;
 }
 
 p {
@@ -60,7 +62,7 @@ h4 {
 }
 
 .top-footer {
-    float: right -50px
+    float: right -50px;
 }
 
 .portfolio-menu {
