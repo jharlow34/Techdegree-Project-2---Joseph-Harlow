@@ -1,15 +1,71 @@
 /* Layout containers */
-
-.container {
-    width: 100%;
-    align-items: center;
+* {
+    font-family: 'Fjalla One', sans-serif;
+    box-sizing: border-box;
 }
 
-.main-footer {
+.profile-image {
+    margin-top: 25px;
+}
+
+.nav {
+    background-color: lightblue;
+    padding-top: .10px;
+
+}
+
+
+.main-header {
+    text-align: center;
+    
+}
+
+
+li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.intro {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.main-section {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+p {
+    max-width: 100%;
     text-align: center;
 }
 
-.img
+h2,
+h4 {
+    text-align: center;
+}
+
+.pmain-portfolio-heading {
+    margin-top: 100px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.footer-name {
+    float: left;
+}
+
+.top-footer {
+    float: right;
+}
+
+.portfolio-menu {
+    max-width: 100%;
+}
+
 /* Media queries */
 
 @media (min-width:769px) {
