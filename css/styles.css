@@ -7,7 +7,7 @@
   }
   
   h1 {
-    color: #e7e7e7;
+    color: black;
     font-size: 2.5em;
   }
   
@@ -18,9 +18,10 @@
   p{
       color: #242424;
   }
+  
   body {
     font-family: 'Open Sans', sans-serif;
-    background-color: darkolivegreen;
+    background-color: rgb(231, 233, 227);
     color: whitesmoke;
   }
   
