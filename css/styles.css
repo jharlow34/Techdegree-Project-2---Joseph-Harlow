@@ -18,7 +18,11 @@
   p{
       color: #242424;
   }
-  
+
+  .contact-p {
+      color: whitesmoke;
+  }
+
   body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(231, 233, 227);
