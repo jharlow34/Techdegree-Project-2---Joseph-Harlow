@@ -1,6 +1,6 @@
 /* Layout containers */
 * {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 
@@ -16,12 +16,10 @@
 
 }
 
-
 .main-header {
     text-align: center;
     
 }
-
 
 li {
     list-style: none;
@@ -67,6 +65,8 @@ h4 {
 .portfolio-menu {
     max-width: 100%;
 }
+
+
 
 /* Media queries */
 
