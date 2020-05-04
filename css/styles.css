@@ -2,6 +2,7 @@
 * {
     font-family: 'Fjalla One', sans-serif;
     box-sizing: border-box;
+    line-height: 10px;
 }
 
 .profile-image {
@@ -36,7 +37,6 @@ li {
 .main-section {
     margin-right: 5%;
     margin-left: 5%;
-    line-height: 2px;
 }
 
 p {
