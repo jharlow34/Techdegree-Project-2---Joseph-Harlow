@@ -2,13 +2,14 @@
 
 .container {
     width: 100%;
+    align-items: center;
 }
 
 .main-footer {
     text-align: center;
 }
 
-
+.img
 /* Media queries */
 
 @media (min-width:769px) {
