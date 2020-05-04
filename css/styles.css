@@ -1,78 +1,367 @@
-/* Layout containers */
+/* =================================
+  Base Element Styles
+==================================== */
+
 * {
-    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-}
-
-.profile-image {
-    margin-top: 25px;
-}
-
-.nav {
-    background-color: lightblue;
-    padding-top: .10px;
+  }
+  
+  h1 {
+    color: #e7e7e7;
+    font-size: 2.5em;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #242424;
+    color: #4a4a4a;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    color: #4a4a4a;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #4a4a4a;
+  }
+  
+  h1,
+  h2,
+  h3,
+  .main-nav li {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+  }
+  
+  .main-footer {
+    display: inline-block;
+    width: calc(100% - 32px);
+    border-top: 1px solid #e7e7e7;
+    margin: 0 1em;
+    padding: 2em 0;
+    color: #e7e7e7;
+  }
+  
+  
+  /* =================================
+    Base Layout Styles
+  ==================================== */
+  
+  /* ---- Navigation ---- */
+  
+  .name {
     text-align: center;
+    margin-top: .5em;
+  }
+  
+  .main-nav {
+    margin-bottom: 2em;
+  }
+  
+  .main-nav a {
+    display: block;
+    font-size: 1.25em;
+    background-color: #fff;
+      text-transform: uppercase;
+    font-weight: bold;
+      text-align: center;
+      padding: 1em;
+    margin: .4em 1em;
+  }
+  
+  .main-nav a:hover {
+      color: #059ea3;
+  }
+  
+  .contact {
+    background-color: #242424;
+  }
+  
+  .footer-nav {
+    color: #e7e7e7;
+    display: none;
+  }
+  
+  /* ---- Layout Containers ---- */
+  
+  .intro,
+  .contact {
+    display: block;
+    text-align: center;
+    width: 100%;
     margin: 0 auto;
-
-}
-
-.main-header {
+    padding: 1em 1em 2em 1em;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #e7e7e7;
+  }
+  
+  .main-container {
     text-align: center;
-    
-}
-
-li {
-    list-style: none;
-    padding-bottom: 15px;
-}
-
-.intro {
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.main-section {
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-p {
-    max-width: 100%;
+    padding: 1em;
+    background-color: #fff;
+  }
+  
+  .main-footer a {
+    color: #e7e7e7;
+  }
+  
+  .main-footer a:hover {
+    color: #059ea3;
+  }
+  
+  .main-footer a:visited {
+    color: #e7e7e7;
+  }
+  
+  .footer-nav a:hover {
+    color: #059ea3;
+  }
+  
+  /* ---- Page Elements ---- */
+  
+  .main-container h2 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  .portfolio {
+    text-transform: uppercase;
+    padding-top: 1em;
+  }
+  
+  .card img {
+    padding: 1em 0;
+  }
+  
+  .card article {
+    padding-top: 1em;
+  }
+  
+  article p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  
+  .calculator p {
+    padding-bottom: 1em;
+  }
+  
+  .skills {
+    display: inline-block;
+    background-color: #fff;
     text-align: center;
-}
-
-h2,
-h4 {
-    text-align: center;
-}
-
-.main-portfolio-heading {
-    margin-top: 100px;
-}
-
-.contact {
-    margin-top: 100px;
-}
-
-.footer-name {
-    float: left -50px;
-}
-
-.top-footer {
-    float: right -50px;
-}
-
-.portfolio-menu {
-    max-width: 100%;
-}
-
-
-
-/* Media queries */
-
-@media (min-width:769px) {
-    .container {
-        max-width: 1024px;
+    width: 100%;
+    border-top: 3px solid #e7e7e7;
+    padding: 2em;
+    margin: 2em 0;
+  }
+  
+  .skills ul {
+    padding-top: 2em;
+  }
+  
+  .skills li {
+    display: inline;
+    font-size: 1.1em;
+    color: #059ea3;
+    width: 33.33%;
+    padding: 1em;
+  }
+  
+  .contact h2 {
+    text-transform: uppercase;
+    padding: 1em 0;
+  }
+  
+  .contact-p {
+    padding-bottom: 1em;
+  }
+  
+  .contact-link {
+    padding-left: 20px;
+    color: #7f7f7f;
+  }
+  
+  .contact-link:hover {
+    color: #059ea3;
+  }
+  
+  footer span {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .footer-name {
+    float: left;
+  }
+  
+  .backtop {
+    color: #e7e7e7;
+    float: right;
+    text-transform: uppercase;
+  }
+  
+  .backtop a:hover {
+    color: #059ea3;
+  }
+  
+  
+  
+  /* =================================
+    Media Queries
+  ==================================== */
+  
+  @media (min-width: 768px) {
+  
+    .header-top {
+      padding-top: 1em;
     }
+  
+    .main-nav ul {
+      text-align: center;
     }
-    
+  
+    .main-nav li {
+      display: inline-block;
+      padding: 0 1em;
+    }
+  
+    .main-nav a {
+      color: #e7e7e7;
+      background-color: #242424;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .main-container,
+    .intro,
+    .contact {
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .intro,
+    .contact {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+  
+    .intro img {
+      float: right;
+      width: 50%;
+    }
+  
+    .intro p {
+      float: left;
+      width: 50%;
+      padding-right: 1em;
+      margin-top: 0;
+    }
+  
+    .card {
+      float: left;
+      width: 50%;
+      height: 480px;
+      margin: 0 auto;
+    }
+  
+    .marketing,
+    .travel,
+    .gallery {
+      padding-right: 10px;
+    }
+  
+    .search,
+    .map,
+    .calculator {
+      padding-left: 10px;
+    }
+  
+    .skills {
+      margin-bottom: 1em;
+    }
+  
+    .skills li {
+      padding: 0 50px;
+      font-size: 1.4em;
+    }
+  
+    .skills article {
+      padding-top: 2em;
+    }
+  
+    .backtop {
+      display: none;
+    }
+  
+    .footer-nav {
+      display: inline-block;
+      float: right;
+    }
+  
+    .footer-nav li {
+      display: inline-block;
+      float: left;
+      padding-left: 20px;
+      text-transform: uppercase;
+    }
+  
+    /* ---- Float clearfix ---- */
+  
+      .clearfix::after {
+          content: " ";
+          display: table;
+          clear: both;
+      }
+  
+  }
+  
+  @media (min-width: 1024px) {
+  
+    main {
+      width: 95%;
+      margin: 0 auto;
+    }
+  
+    .main-container,
+    .intro,
+    .contact {
+      max-width: 1100px;
+    }
+  
+    .header-top {
+      display: inline-block;
+      width: 100%;
+      padding: 2em;
+    }
+  
+    .name {
+      float: left;
+      padding-top: .3em;
+      margin: 0;
+    }
+  
+    .main-nav {
+      display: inline-block;
+      float: right;
+    }
+  
+    .main-nav a {
+      padding-top: 1.4em;
+    }
+  
+    .card {
+      padding: 10px;
+      height: 420px;
+      width: 33.33%;
+    }
+  
+  }
