@@ -1,84 +1,122 @@
-<!doctype html>
-<html lang= "en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Joseph Harlow - Portfolio </title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900,900i&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<title>Portfolio | Brandon Howard</title>
+  	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
     <header class="main-header" id="top">
-        <h1 class="student-name">JOSEPH HARLOW</h1>
+      <div class="header-top">
+        <h1 class="name">Brandon Howard</h1>
         <nav class="main-nav">
-         <h2>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-         </h2>
-      </nav>
+    			<ul>
+    				<li><a href="#top">home</a></li>
+    				<li><a href="#portfolio">portfolio</a></li>
+    				<li><a href="#skills">skills</a></li>
+    				<li><a href="#contact">contact</a></li>
+    			</ul>
+        </nav>
+      </div>
+      <div class="intro clearfix">
+        <img class="profile-img" src="img/responsive-layout-profile.png" alt="Profile Image">
+        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+      </div>
+    </header> <!--/.main-header-->
 
-<div class="intro clearfix">
-      <img src="images/responsive-layout-profile.png" alt="My profile picture" class="profile-image">
-     <p class="intro">Hi! I am a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>         
-    </div>
-    </header>   
+    <main>
+      <div class="main-container">
+        <h2 class="portfolio" id="portfolio">Portfolio</h2>
 
-
-<main class="main-container">
-        <h2 class="main-portfolio-heading" id="Portfolio">Portfolio</h2>
-        <div>
-        <img src="images/portfolio-1.png" alt="Marketing section" class="portfolio-menu">  
-           <h2>Marketing Page</h2>
-             <p>This project shows the front page of a marketing website meant for a specific business I'm interested in. </p>
-        </div>
-        
-        <div>
-        <img src="images/portfolio-2.png" alt="Search section" class="portfolio-menu">  
-           <h2>Search Page</h2>
-                <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+        <div class="marketing card">
+          <img src="img/portfolio-1.png" alt="Marking Page">
+          <article>
+            <h2>Marketing Page</h2>
+            <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+          </article>
         </div>
 
-        <div>
-        <img src="images/portfolio-3.png" alt="Travel App section" class="portfolio-menu">
+        <div class="search card">
+          <img src="img/portfolio-2.png" alt="Search Page">
+          <article>
+            <h2>Search Page</h2>
+            <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          </article>
+        </div>
+
+        <div class="travel card">
+          <img src="img/portfolio-3.png" alt="Travel App">
+          <article>
             <h2>Travel App</h2>
-                 <p> This project compares travel times based on different transportation methods and tells you the best one. </p>
-        </div>  
-
-        <div>
-        <img src="images/portfolio-4.png" alt="Map of favourite spots section" class="portfolio-menu">
-            <h2>Map of Favourite Spots</h2>
-                 <p>This porject uses mapping apis to plot points for my favourite spots in the city for do-it-yourself walking tour. </p>
+            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          </article>
         </div>
 
-        <div>
-        <img src="images/portfolio-5.png" alt="Photo gallery section" class="portfolio-menu">
+        <div class="map card">
+          <img src="img/portfolio-4.png" alt="Map of Favorite Spots">
+          <article>
+            <h2>Map of Favorite Spots</h2>
+            <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+          </article>
+        </div>
+
+        <div class="gallery card">
+          <img src="img/portfolio-5.png" alt="Photo Gallery">
+          <article>
             <h2>Photo Gallery</h2>
-                 <p> This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos. </p>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          </article>
         </div>
 
-        <div>
-        <img src="images/portfolio-6.png" alt="Calculator section" class="portfolio-menu">
+        <div class="calculator card">
+          <img src="img/portfolio-6.png" alt="Calculator">
+          <article>
             <h2>Calculator</h2>
-                <p> Someone can enter in the numbers they want, and press the big blue button and get the result. </p>
+            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+          </article>
         </div>
 
-        <h2 class="contact" id="Contact">Contact</h2>
-            <p> If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-       <p>Phone <strong> 111 555-1234</strong></p>
-       <p>Email<strong> email@yoursite.com</strong></p>
- </main>
+        <div class="skills clearfix">
+          <article>
+            <h2 id="skills">Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </div>
 
-<footer class="main-footer">
-   <h4 class="footer-name">Joseph Harlow</h4>
-   <h4 class="top-footer"><a href=#top>Back to top</a></h4>
+      <div class="contact">
+        <h2 id="contact">Contact</h2>
+        <p class="contact-p">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone <strong><a class="contact-link" href="tel:+11115551234">+1 (111) 555-1234</a></strong></p>
+        <p>Email <strong><a class="contact-link" href="mailto:email@yoursite.com">email@yoursite.com</a></strong></p>
+      </div>
+    </main>
 
+    <footer>
+      <div class="main-footer">
+        <span class="footer-name">Brandon Howard</span>
+        <span class="backtop"><a href="#top">back to top</a></span>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#top">home</a></li>
+    				<li><a href="#portfolio">portfolio</a></li>
+    				<li><a href="#skills">skills</a></li>
+    				<li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
 
-</footer>
-
-</body>
+  </body>
 
 </html>
-  
