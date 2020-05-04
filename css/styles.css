@@ -19,9 +19,14 @@
       color: #242424;
   }
 
-  .contact {
+  .contact-p {
       color: whitesmoke;
   }
+  .contact-phone {
+      color: whitesmoke
+  }
+
+
 
   body {
     font-family: 'Open Sans', sans-serif;
