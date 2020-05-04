@@ -1,8 +1,7 @@
 /* Layout containers */
 
 .container {
-    width: 70%;
-    margin: auto;
+    width: 100%;
 }
 
 .main-footer {
