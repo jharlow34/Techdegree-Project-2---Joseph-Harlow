@@ -12,9 +12,12 @@
   }
   
   h2{
-      color: #242424
+      color: #242424;
   }
-  
+
+  p{
+      color: #242424;
+  }
   body {
     font-family: 'Open Sans', sans-serif;
     background-color: darkolivegreen;
