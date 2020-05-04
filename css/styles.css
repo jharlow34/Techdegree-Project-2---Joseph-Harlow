@@ -1,0 +1,20 @@
+/* Layout containers */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-footer {
+    text-align: center;
+}
+
+
+/* Media queries */
+
+@media (min-width:769px) {
+    .container {
+        max-width: 1024px;
+    }
+    }
+    
