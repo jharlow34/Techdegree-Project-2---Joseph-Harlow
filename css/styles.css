@@ -373,7 +373,8 @@
     }
   
     .main-nav {
-      display: inline-block;
+      display: block;
+      float: right
     }
   
     .main-nav a {
