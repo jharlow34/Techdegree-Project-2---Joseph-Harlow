@@ -145,9 +145,10 @@
   
   .footer-name {
       color: black;
-      font-size: 32px;
-      letter-spacing: 2px;
+      font-size: 20px;
+      letter-spacing: 0.8px;
       margin: 0px 0px 26px;
+      float: 12px;
 
   }
   .footer-nav a:hover {
