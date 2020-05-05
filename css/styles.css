@@ -231,16 +231,6 @@
     float: left;
   }
   
-  .backtop {
-    color: black;
-    float: right;
-    text-transform: uppercase;
-  }
-  
-  .backtop a:hover {
-    color: #059ea3;
-  }
-  
   
   
   /* =================================
