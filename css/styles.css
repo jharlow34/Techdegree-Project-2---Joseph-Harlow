@@ -159,7 +159,7 @@
   /* ---- Page Elements ---- */
   
   .main-container h2 {
-    font-size: 4em;
+    font-size: 2em;
     margin-top: 0;
   }
   
@@ -187,8 +187,6 @@
     text-align: center;
     width: 100%;
     border: 8px dashed #ff820e;
-    padding: 2em;
-    margin: 2em 0;
   }
   
   .skills ul {
