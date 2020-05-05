@@ -187,6 +187,8 @@
     text-align: center;
     width: 100%;
     border: 8px dashed #ff820e;
+    padding: 2em;
+    margin: 2em 0;
   }
   
   .skills ul {
