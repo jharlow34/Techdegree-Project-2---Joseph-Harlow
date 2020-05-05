@@ -46,6 +46,14 @@
     max-width: 100%;
   }
 
+  a {
+    color: #4a4a4a;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #4a4a4a;
+  }
   
   h1,
   h2,
@@ -92,7 +100,7 @@
   }
   
   .main-nav a:hover {
-      color:salmon;
+      color: white;
   }
   
   .contact {
