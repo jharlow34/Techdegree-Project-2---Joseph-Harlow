@@ -136,7 +136,7 @@
   }
   
   .main-footer a:hover {
-    color: #064e1e;
+    color: #d9f00a;
   }
   
   .main-footer a:visited {
@@ -144,10 +144,14 @@
   }
   
   .footer-name {
-      color: black
+      color: black;
+      font-size: 32px;
+      letter-spacing: 2px;
+      margin: 0px 0px 26px;
+
   }
   .footer-nav a:hover {
-    color: #064e1e;
+    color: #caf50b;
   }
   
   /* ---- Page Elements ---- */
