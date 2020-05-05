@@ -318,13 +318,13 @@
     }
   
     .footer-nav {
-      display: block;
-      float: left;
+      display: inline-block;
+      float: right;
     }
   
     .footer-nav li {
       display: inline-block;
-      float: right;
+      float: left;
       padding-left: 20px;
       text-transform: uppercase;
     }
@@ -375,8 +375,8 @@
     }
   
     .main-nav {
-      display: block;
-      float: right
+      display: inline-block;
+      float: right;
     }
   
     .main-nav a {
