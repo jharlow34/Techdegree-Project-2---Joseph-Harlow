@@ -155,12 +155,7 @@
       margin: 12px 12px 12px 26px;
   }
 
-  .backtop {
-      color: black;
-      letter-spacing: 0.5px;
-  }
-
- 
+   
   
   /* ---- Page Elements ---- */
   
@@ -174,9 +169,6 @@
     padding-top: 1em;
   }
   
-  .section article {
-    padding-top: 1em;
-  }
   
   article p {
     font-size: 1.2em;
