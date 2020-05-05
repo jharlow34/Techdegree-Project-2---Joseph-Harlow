@@ -190,9 +190,9 @@
   }
   
   .skills li {
+    display: inline;
     font-size: 1.1em;
     color: #fcf9fb;
-    width: 33%;
     padding: 1em;
   }
 
