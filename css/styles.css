@@ -135,9 +135,13 @@
 
   .footer-nav{
       letter-spacing: 0.8px;
-      margin: 26px 12px 12px 12px;
+      margin: 12px 12px 12px 26px;
 
   }
+  .footer-nav a:hover {
+      color: whitesmoke;
+
+}
   .main-footer a {
     color: black;
     font-weight: bold;
@@ -153,7 +157,6 @@
       font-size: 20px;
       letter-spacing: 0.8px;
       margin: 12px 12px 12px 26px;
-      float: 50px;
   }
 
  
