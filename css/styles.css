@@ -189,7 +189,7 @@
   .skills li {
     display: inline;
     font-size: 1.1em;
-    color: #059ea3;
+    color: #d8006c;
     width: 33.33%;
     padding: 1em;
   }
@@ -205,7 +205,7 @@
   
   .contact-link {
     padding-left: 20px;
-    color: #7f7f7f;
+    color: #e60d67;
   }
   
   .contact-link:hover {
