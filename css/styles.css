@@ -333,6 +333,7 @@
         color: #e7e7e7;
         float: right;
         text-transform: uppercase;
+        text-align: center;
       }
       
       .backtop a:hover {
