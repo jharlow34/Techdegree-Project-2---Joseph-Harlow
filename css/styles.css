@@ -167,6 +167,10 @@
     text-transform: uppercase;
     padding-top: 2em;
   }
+
+  .section article {
+    padding-top: 2em;
+  }
   
   article p {
     font-size: 1.2em;
@@ -286,12 +290,7 @@
       margin-top: 0;
     }
   
-    .card {
-      float: left;
-      width: 50%;
-      height: 480px;
-      margin: 0 auto;
-    }
+    
   
     .marketing,
     .travel,
