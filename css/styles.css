@@ -331,9 +331,8 @@
 
     .backtop {
         color: #e7e7e7;
-        float: right;
+        float: center;
         text-transform: uppercase;
-        text-align: center;
       }
       
       .backtop a:hover {
