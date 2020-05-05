@@ -133,10 +133,7 @@
   
   .main-footer a {
     color: #e7e7e7;
-  }
   
-  .main-footer a:hover {
-    color: #d9f00a;
   }
   
   .main-footer a:visited {
@@ -149,11 +146,9 @@
       letter-spacing: 0.8px;
       margin: 12px 12px 12px 26px;
       float: 50px;
+  }
 
-  }
-  .footer-nav a:hover {
-    color: #caf50b;
-  }
+ 
   
   /* ---- Page Elements ---- */
   
