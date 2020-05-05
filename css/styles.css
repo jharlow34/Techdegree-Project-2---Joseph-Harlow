@@ -1,6 +1,4 @@
-/* =================================
-  Base Element Styles
-==================================== */
+/* BASE ELEMENT STYLES*/
 
 * {
     box-sizing: border-box;
@@ -72,11 +70,7 @@
   }
   
   
-  /* =================================
-    Base Layout Styles
-  ==================================== */
-  
-  /* ---- Navigation ---- */
+  /* LAYOUT STYLES NAV */
   
   .name {
     text-align: center;
@@ -111,7 +105,7 @@
     display: none;
   }
   
-  /* ---- Layout Containers ---- */
+  /* CONTAINERS FOR LAYOUT*/
   
   .intro,
   .contact {
@@ -156,7 +150,7 @@
 
    
   
-  /* ---- Page Elements ---- */
+  /* PAGE ELEMENTS */
   
   .main-container h2 {
     font-size: 2em;
@@ -237,9 +231,7 @@
   
   
   
-  /* =================================
-    Media Queries
-  ==================================== */
+  /* MEDIA QUERIES */
   
   @media (min-width: 768px) {
   
@@ -338,7 +330,7 @@
       text-transform: uppercase;
     }
   
-    /* ---- Float clearfix ---- */
+    /* FLOAT CLEARFIX */
   
       .clearfix::after {
           content: " ";
