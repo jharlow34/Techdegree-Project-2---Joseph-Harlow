@@ -290,7 +290,7 @@
       margin-top: 0;
     }
   
-    .section {
+    .card {
         float: left;
         width: 50%;
         height: 480px;
@@ -322,6 +322,9 @@
       padding-top: 2em;
     }
   
+    .backtop {
+      display: none;
+    }
   
     .footer-nav {
       display: inline-block;
