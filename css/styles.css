@@ -209,7 +209,7 @@
   }
   
   .contact-link:hover {
-    color: #059ea3;
+    color: whitesmoke;
   }
   
   footer span {
@@ -222,7 +222,7 @@
   }
   
   .backtop {
-    color: #e7e7e7;
+    color: black;
     float: right;
     text-transform: uppercase;
   }
