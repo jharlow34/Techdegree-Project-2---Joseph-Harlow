@@ -187,13 +187,13 @@
     background-color: rgb(75, 133, 75);
     text-align: center;
     width: 100%;
-    border: 3px dashed #ff820e;
+    border: 8px dashed #ff820e;
     padding: 2em;
     margin: 2em 0;
   }
   
   .skills ul {
-    padding-top: 2em;
+    padding-top: 1em;
   }
   
   .skills li {
