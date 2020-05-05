@@ -184,7 +184,7 @@
   
   .skills {
     display: inline-block;
-    background-color: rgb(26, 112, 26);
+    background-color: rgb(75, 133, 75);
     text-align: center;
     width: 100%;
     border: 3px dashed #ff820e;
@@ -202,6 +202,11 @@
     color: #fcf9fb;
     width: 33.33%;
     padding: 1em;
+  }
+
+  .skills h2 {
+    text-transform: uppercase;
+    padding: 1em 0;
   }
   
   .contact h2 {
