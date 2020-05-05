@@ -136,7 +136,6 @@
   .footer-nav{
       letter-spacing: 0.8px;
       margin: 26px 12px 12px 12px;
-      float: 50px;
 
   }
   .main-footer a {
@@ -146,7 +145,7 @@
   }
   
   .main-footer a:visited {
-    color: salmon;
+    color:black;
   }
   
   .footer-name {
