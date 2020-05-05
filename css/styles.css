@@ -135,11 +135,7 @@
 
   .footer-nav{
       letter-spacing: 0.8px;
-      margin: 12px 12px 12px 26px;
-
-  }
-  .footer-nav a:hover {
-      color: whitesmoke;
+      margin: 12px;
 
 }
   .main-footer a {
