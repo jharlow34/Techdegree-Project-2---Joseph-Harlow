@@ -187,7 +187,7 @@
     background-color: lightgreen;
     text-align: center;
     width: 100%;
-    border-top: 10px dashed #e7e7e7;
+    border-top: 3px dashed #ff820e;
     padding: 2em;
     margin: 2em 0;
   }
@@ -199,7 +199,7 @@
   .skills li {
     display: inline;
     font-size: 1.1em;
-    color: #d8006c;
+    color: #fcf9fb;
     width: 33.33%;
     padding: 1em;
   }
