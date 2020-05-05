@@ -173,7 +173,7 @@
   }
   
   .skills {
-    display: inline-block;
+    display: inline;
     background-color: #fff;
     text-align: center;
     width: 100%;
