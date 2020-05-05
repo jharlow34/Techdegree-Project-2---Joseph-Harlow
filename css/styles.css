@@ -290,7 +290,12 @@
       margin-top: 0;
     }
   
-    
+    .section {
+        float: left;
+        width: 50%;
+        height: 480px;
+        margin: 0 auto;
+      }
   
     .marketing,
     .travel,
@@ -317,9 +322,6 @@
       padding-top: 2em;
     }
   
-    .backtop {
-      display: none;
-    }
   
     .footer-nav {
       display: inline-block;
