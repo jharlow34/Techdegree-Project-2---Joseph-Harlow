@@ -290,7 +290,7 @@
       margin-top: 0;
     }
   
-    .card {
+    .section {
         float: left;
         width: 50%;
         height: 480px;
@@ -382,7 +382,7 @@
       padding-top: 1.4em;
     }
   
-    .card {
+    .section {
       padding: 10px;
       height: 420px;
       width: 33.33%;
