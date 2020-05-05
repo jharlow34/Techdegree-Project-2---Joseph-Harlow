@@ -34,6 +34,7 @@
   }
 
 
+
   body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(231, 233, 227);
@@ -45,7 +46,7 @@
   }
   
   a {
-    color: #fdfafa;
+    color: #4a4a4a;
     text-decoration: none;
   }
   
@@ -142,6 +143,9 @@
     color: #e7e7e7;
   }
   
+  .footer-name {
+      color: black
+  }
   .footer-nav a:hover {
     color: #064e1e;
   }
