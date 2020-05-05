@@ -184,10 +184,10 @@
   
   .skills {
     display: inline-block;
-    background-color: lightgreen;
+    background-color: rgb(26, 112, 26);
     text-align: center;
     width: 100%;
-    border-top: 3px dashed #ff820e;
+    border: 3px dashed #ff820e;
     padding: 2em;
     margin: 2em 0;
   }
