@@ -317,10 +317,12 @@
   
     .footer-nav {
       display: inline-block;
+      float: right;
     }
   
     .footer-nav li {
       display: inline-block;
+      float: left;
       padding-left: 20px;
       text-transform: uppercase;
     }
@@ -374,6 +376,7 @@
   
     .main-nav {
       display: inline-block;
+      float: right;
     }
   
     .main-nav a {
