@@ -354,12 +354,20 @@
       margin: 0 auto;
     }
   
-    .main-container,
     .intro,
     .contact {
       width: 90%;
       max-width: 1100px;
     }
+
+    .main-container {
+        width: 90%
+    }
+
+    .section {
+        width: 30%;
+        margin: 10px;
+      }
 
     .header-top {
       display: inline-block;
