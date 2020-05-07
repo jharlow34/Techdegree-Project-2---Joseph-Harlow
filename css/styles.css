@@ -361,25 +361,6 @@
       max-width: 1100px;
     }
 
-    .section {
-        float: left;
-        width: 30%;
-        height: 480px;
-        margin: 0 auto;
-      }
-
-      .marketing,
-      .travel,
-      .gallery {
-        padding-right: 10px;
-      }
-    
-      .search,
-      .map,
-      .calculator {
-        padding-left: 10px;
-      }
-
     .header-top {
       display: inline-block;
       width: 100%;
