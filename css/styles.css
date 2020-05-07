@@ -357,6 +357,7 @@
     .main-container,
     .intro,
     .contact {
+      width: 80%;
       max-width: 1100px;
     }
   
