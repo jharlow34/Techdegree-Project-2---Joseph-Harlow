@@ -368,14 +368,14 @@
     }
   
     .name {
-      float: left;
+      float: none;
       padding-top: .3em;
       margin: 0;
     }
   
     .main-nav {
       display: inline-block;
-      float: right;
+      float: none;
     }
   
     .main-nav a {
