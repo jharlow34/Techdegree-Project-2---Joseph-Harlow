@@ -317,12 +317,10 @@
   
     .footer-nav {
       display: inline-block;
-      float: right;
     }
   
     .footer-nav li {
       display: inline-block;
-      float: left;
       padding-left: 20px;
       text-transform: uppercase;
     }
@@ -357,9 +355,8 @@
     .main-container,
     .intro,
     .contact {
-      width: 100%;
+      width: 90%;
       max-width: 1100px;
-      float: 30%
     }
 
 
@@ -377,7 +374,6 @@
   
     .main-nav {
       display: inline-block;
-      float: right;
     }
   
     .main-nav a {
